@@ -1,16 +1,14 @@
 #!/usr/bin/python
 
-# A functional password cracker to demonstrate a dictionary attack
-# Processes a set of GECOS fields from /etc/shadow
-#
-# usage: python matc-crack.py `grep root /etc/shadow`
+# A functional password cracker that demonstrates a dictionary attack
+# usage: python mcrack-0.2.py `grep root /etc/shadow`
 
 import sys
 import os
 import crypt
 from sys import argv
 
-dictionary = '/usr/share/john/password.lst'
+dictionary = '/PATH/TO/password.lst'
 
 myName = sys.argv[0]
 shadowGecos = sys.argv[1]

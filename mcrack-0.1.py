@@ -1,10 +1,13 @@
 #!/usr/bin/python
 
+# A functional password cracker that demonstrates a dictionary attack
+# usage: python mcrack-0.1.py `grep root /etc/shadow`
+
 import sys
 import crypt
 from sys import argv
 
-dictionary = '/usr/share/john/password.lst'
+dictionary = '/PATH/TO/password.lst'
 
 myName = sys.argv[0]
 shadowGecos = sys.argv[1]
