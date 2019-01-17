@@ -1,7 +1,5 @@
 #!/usr/bin/python
 
-# A functional password cracker to demonstrate a dictionary attack
-
 import sys
 import crypt
 from sys import argv
