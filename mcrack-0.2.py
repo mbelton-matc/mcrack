@@ -1,4 +1,3 @@
-root@lab-matc-00:/home/no6/pass-crack-0.1/matc-crack/delivery# vi matc-crack-0.2.py
 #!/usr/bin/python
 
 # A functional password cracker to demonstrate a dictionary attack
