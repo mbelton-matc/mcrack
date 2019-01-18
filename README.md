@@ -2,9 +2,11 @@
 
 Madison College Crack
 
-A functional password cracker that demonstrates a dictionary attack
+A functional password cracker that demonstrates a dictionary attack.
 
-usage: python mcrack-0.1.py \`grep USERNAME /etc/shadow\`
+Will only work on Linux, but can be adapted to other Operating Systems.
+
+`usage: python mcrack-0.1.py \`grep USERNAME /etc/shadow\``
 
 Two versions are available:
 
