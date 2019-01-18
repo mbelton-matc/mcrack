@@ -4,7 +4,7 @@ Madison College Crack
 
 A functional password cracker that demonstrates a dictionary attack
 
-usage: python mcrack-0.1.py `grep root /etc/shadow`
+usage: python mcrack-0.1.py \`grep USERNAME /etc/shadow\`
 
 Two versions are available:
 
