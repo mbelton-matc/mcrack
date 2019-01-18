@@ -1,4 +1,4 @@
-# mc-crack
+# mcrack
 
 Madison College Crack
 
