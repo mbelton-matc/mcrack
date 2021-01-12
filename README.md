@@ -2,9 +2,9 @@
 
 Madison College Crack
 
-A functional password cracker that demonstrates a dictionary attack.
+A functional password cracker that demonstrates a dictionary attack. Input is a GECOS line that contains a password hash.
 
-usage: python mcrack-0.1.py \`grep USERNAME /etc/shadow\`
+sample usage: python mcrack-0.1.py \`grep USERNAME /etc/shadow\`
 
 Two versions are available:
 
